@@ -1,5 +1,6 @@
 import { MyEventsPanel } from "src/component/MyEventsPanel";
 import { NextPage } from "next";
+import { authRoute } from "src/component/AuthRoute";
 
 const MyEvents: NextPage = () => {
   return (
@@ -11,4 +12,4 @@ const MyEvents: NextPage = () => {
   );
 };
 
-export default MyEvents;
+export default authRoute(MyEvents);

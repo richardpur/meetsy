@@ -10,3 +10,4 @@ export * from "./Footer";
 export * from "./HowItWorksPanel";
 export * from "./InfoPanel";
 export * from "./ComponentLoader";
+export * from "./AuthRoute";
